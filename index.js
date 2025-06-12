@@ -7,7 +7,7 @@ const app =express();
 
 app.use(express.json());
 
-app.use(express.static(""));
+app.use(express.static("Fronted"));
 
 app.post("/api/contact", async (req,res)=>{
     try {
