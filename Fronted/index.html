@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  </head>
+  <body>
+    <header>
+      <h1><span color="red">M</span>ayank <span color="red">S</span>harma.</h1>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="about-container">
+        <img
+          src="../images/background.jpg"
+          alt="Mayank Sharma"
+          class="profile-photo"
+        />
+        <div>
+          <p>
+            Hi, I'm Mayank Sharma — a Full-Stack Developer with a strong passion
+            for backend development. I enjoy turning complex problems into
+            clean, scalable solutions using modern technologies.
+          </p>
+          <p>
+            I'm experienced in working with HTML, CSS, JavaScript, Node.js, and
+            MongoDB to build dynamic web applications. Currently, I'm diving
+            into Vite + React.js to sharpen my front-end skills and build fast,
+            modern interfaces.
+          </p>
+          <p>
+            I love exploring how systems work under the hood and constantly
+            strive to improve both my coding and design thinking. When I’m not
+            building projects, you might find me reading about emerging tech,
+            watching coding tutorials, or enjoying a good strategy game.
+          </p>
+          <a href="./images/Resume.pdf" download class="resume-btn"
+             download>Download Resume</a
+          >
+        </div>
+      </div>
+      <h3>Tech Stack</h3>
+      <div class="tech-stack">
+        <img src="./images/icons/html5.svg" alt="HTML" />
+        <img src="./images/icons/css.png" alt="CSS" />
+        <img src="./images/icons/javascript.png" alt="JavaScript" />
+        <img src="./images/icons/nodejs.png" alt="Node.js" />
+        <img src="./images/icons/MongoDB.png"" alt="MongoDB">
+        <img src="./images/icons/react.png" alt="React" />
+        <img src="./images/icons/vite.png" alt="Vite" />
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+         <div class="project-card">
+         
+        <div class="img-section">
+          <img src="./images/PersonalNotes.png" alt="Personal Notes Screenshot" />
+          <img src="./images/personalNotes2.png" alt="Personal Notes Screenshot" />
+        </div>
+        <div class="content-section">
+          <h3>Project 1: Personal Note App</h3>
+          <p>
+            A full-stack task manager with login, task tracking, and data
+            storage.
+          </p>
+          <p>
+            <strong>Tech Stack:</strong> HTML, CSS, JavaScript, Node.js, MongoDB
+          </p>
+          <a href="https://personalnote-rbzo.onrender.com/">Live Demo</a> |
+          <a href="https://github.com/Mayank4727/PersonalNotes">GitHub Code</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+         <div class="img-section">
+        <img src="./images/Reasturent.png" alt="Reasturent App Site" height="250px" />
+        <img src="./images/Reasturent2.png" alt="Reasturent App Login Form"  height="250px"/>
+         </div>
+
+          <div class="content-section">
+             <h3>Project 2: Reasturent Management System</h3>
+        <p>
+          A Full stack Reasturent Management System Web Application. It have some specifice features like user Authentication and Email Verification and also for security use haspasword.
+        </p>
+        <p><strong>Tech Stack:</strong>  HTML, CSS, JavaScript, Node.js, MongoDB</p>
+        <a href="https://reastuernt.onrender.com/">Live Demo</a> | <a href="https://github.com/Mayank-dev-app/FinalYearProjectORReastuernt">GitHub Code</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <form id="contact-form">
+        <input type="text" placeholder="Your Name" name="name" id="name" required />
+        <input type="email" placeholder="Your Email"  name="email" id="email" required />
+        <textarea placeholder="Message" name="message" id="message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+<footer id="footer">
+  <div class="footer-content">
+    <p>&copy; 2025 Mayank Sharma. All rights reserved.</p>
+    <div class="footer-links">
+      <a href="https://github.com/Mayank4727" target="_blank">
+        <i class="fab fa-github"></i> GitHub
+      </a>
+      <a href="https://linkedin.com/in/your-linkedin" target="_blank">
+        <i class="fab fa-linkedin"></i> LinkedIn
+      </a>
+      <a href="#contact">
+        <i class="fas fa-envelope"></i> Contact
+      </a>
+    </div>
+    <button id="scrollToTop">⬆️</button>
+
+  </div>
+</footer>
+
+
+
+    <script src="./script.js"></script>
+  </body>
+</html>
